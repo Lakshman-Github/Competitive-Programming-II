@@ -1,0 +1,7 @@
+score = int(input())
+if(score/100*100>70):
+    name = input("Enter your name: ")
+    age = input("Enter your age: ")
+    print("You are eligible")
+else:
+    print("You are not eligible")

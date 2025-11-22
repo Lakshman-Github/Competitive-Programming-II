@@ -1,0 +1,8 @@
+score = int(input())
+if(score/100*100>70):
+    name = input()
+    department = input()
+    profession = input()
+    print("You are eligible for loan")
+else:
+    print("You are not eligible for loan")
