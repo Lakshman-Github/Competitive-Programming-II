@@ -1,0 +1,6 @@
+class Fruit:
+    def __init__(self):
+        self.color="Black"
+apple=Fruit()
+print(apple.color)
+        

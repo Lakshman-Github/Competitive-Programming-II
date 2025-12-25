@@ -1,0 +1,2 @@
+f=open("fruits.txt")
+print(f.read())

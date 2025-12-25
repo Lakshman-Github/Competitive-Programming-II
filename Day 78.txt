@@ -1,0 +1,10 @@
+try:
+    a=int(input())
+    b=int(input())
+    c=input()
+    print(c/a)
+except ValueError as e:
+    print("Value Error",e)
+finally:
+    print("Done") 
+#what ever we print in finally it will print

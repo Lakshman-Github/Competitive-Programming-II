@@ -1,0 +1,3 @@
+n = int(input())
+for i in range(1,n):
+    print("Number is:",i,"and the cube of ",i," : ",i*i*i)

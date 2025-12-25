@@ -1,0 +1,10 @@
+class goa:
+    def party(self):
+        print("Let's Party....")
+    def beach(self):
+        print("Enjoy the beach...")
+ramesh = goa()
+suresh = goa()
+
+ramesh.party()
+suresh.beach()

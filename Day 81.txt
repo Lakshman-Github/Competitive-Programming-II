@@ -1,0 +1,10 @@
+#This program will append without deleting the previous data
+f=open("fruits.txt","a")
+print(f.read())
+
+f.write("Apple\n")
+f.write("Orrange")
+f.close()
+
+f=open("fruits.txt","r+")
+print(f.read())

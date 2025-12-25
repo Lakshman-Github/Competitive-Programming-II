@@ -1,0 +1,11 @@
+a = {
+    "name":"Developer",
+    "age": 1,
+    "location":"Pune",
+    "Students": ["bala","John"]
+}
+a["age"] = 2 --> #We can modify this age as well
+a.clear() --> #It will clear all the items in the Dictionary
+print(a)
+print(a.keys()) --> #print values in left side
+print(a.values()) --> #print values in right side

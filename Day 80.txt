@@ -1,0 +1,9 @@
+f=open("fruits.txt","w")
+print(f.read())
+
+f.write("Banana\n")
+f.write("Mango")
+f.close()
+
+f=open("fruits.txt","r+")
+print(f.read())

@@ -1,0 +1,3 @@
+def painter():
+    return "I am a painter"
+print(painter())

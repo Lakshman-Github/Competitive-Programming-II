@@ -1,0 +1,5 @@
+a = {1,2,3,4,1}
+a.remove(4)
+print(a)
+
+#sets are unorders order will change every time we run the print command

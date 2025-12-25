@@ -1,0 +1,8 @@
+a = [1,2,3,4,5,6] #List - list is a collection which is ordered and changeable, Allows duplicate members, We can modify, We can add or remove
+print(type(a))
+b = (1,2,3,4,5,6) #Tuple - Tuple is a collection which is ordered and unchangeable, Allows duplicate members, We cannot modify, We cannot add or remove
+print(type(b))
+c = {1, 2, 3, 4, 5, 6} #Set - Set is a collection which is unordered, unchangeable and unindexed, No duplicate members, We cannot modify but We can add or remove, add() | update() | remove() | pop()
+print(type(c))
+d = {"a": 1, "b": 2, "c": 3} #Dictionary - Dictionary is a collection which is ordered and changeable, No duplicate members, Do not allow Duplicate values, Duplicate values will overwrite the existing values 
+print(type(d))

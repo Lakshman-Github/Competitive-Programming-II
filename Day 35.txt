@@ -1,0 +1,3 @@
+def Captain(msg):
+    print("Message:",msg)
+Captain("Take my car")

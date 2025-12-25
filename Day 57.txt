@@ -1,0 +1,15 @@
+#instance variable
+class phone():
+    def __init__(self,brand,price,chargertype):
+        self.brand=brand
+        self.price=price
+        self.chargertype=chargertype
+    def display(self):
+        print("Brand:",self.brand)
+        print("Price:",self.price)
+        print("Chargertype:",self.chargertype)
+samsung = phone("samsung","20000","C-Type")
+samsung.display()
+
+redmi = phone("Redmi","10000","C-Type")
+redmi.display()
