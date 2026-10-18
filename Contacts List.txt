@@ -1,0 +1,11 @@
+contacts = ["Rahul","Arun","Priya","Kiran"]
+
+print("Original contacts:",contacts)
+
+contacts.append("Vijay")
+
+contacts[1] = "Arjun"
+
+contacts.remove("Kiran")
+
+print("Final Contacts:",contacts)

@@ -1,0 +1,10 @@
+text = input("Enter a string: ")
+target = input("Enter character to search: ")
+
+count = 0
+
+for char in text:
+    if char == target:
+        count+=1
+        
+print("Count: ",count)

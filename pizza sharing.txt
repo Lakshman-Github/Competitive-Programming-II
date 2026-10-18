@@ -1,0 +1,11 @@
+friends = 4
+pizzas = 3
+each_pizza = 8 
+
+total_slices = pizzas * each_pizza
+slices_each = total_slices//friends
+remaining_slices = total_slices%friends
+
+print("Total Slices:",total_slices)
+print("Slices Each:",slices_each)
+print("Remaining Slices:",remaining_slices)

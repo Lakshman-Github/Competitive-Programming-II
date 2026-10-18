@@ -1,0 +1,8 @@
+marks = 72
+pass_mark = 40
+
+passed = marks >= 40
+exact_mark = marks == 72
+
+print("Passed:",passed)
+print("Scored exactly:",exact_mark)

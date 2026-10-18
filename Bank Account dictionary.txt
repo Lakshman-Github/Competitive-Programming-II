@@ -1,0 +1,15 @@
+account = {
+    "account_number" : 123456,
+    "holder" : "Arun",
+    "balance" : 25000,
+    "status" : "Active"
+}
+
+deposit = 5000
+
+account["balance"] = account["balance"] + deposit
+
+print("Account Number:",account["account_number"])
+print("Account Holder:",account["holder"])
+print("Updated Balance:",account["balance"])
+print("Status:",account["status"])

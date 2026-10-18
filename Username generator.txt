@@ -1,0 +1,6 @@
+first_name = "jaya"
+birth_year = "2000"
+
+username = first_name.lower() + birth_year
+
+print("Generated Username:",username)

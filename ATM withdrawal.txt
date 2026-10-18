@@ -1,0 +1,12 @@
+balance = 25000
+withdrawal = 10000
+maximum_limit = 20000
+
+sufficient_balance = balance >= withdrawal
+within_limit = withdrawal <= maximum_limit 
+
+can_withdraw = sufficient_balance and within_limit
+
+print("Sufficient_Balance:",sufficient_balance)
+print("Within ATM Limit:",within_limit)
+print("Can Withdraw:",can_withdraw)

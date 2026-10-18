@@ -1,0 +1,4 @@
+items = ["Apple", "Milk", "Bread", "Eggs", "Rice"]
+
+for items in items:
+    print(items)

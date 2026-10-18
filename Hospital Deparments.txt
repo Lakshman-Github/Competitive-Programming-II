@@ -1,0 +1,8 @@
+departments = {"Cardiology","Neurology","Orthopedics","Dermatology"}
+
+departments.add("Pediatrics")
+departments.remove("Dermatology")
+
+print("Available Departments:",departments)
+print("Is Cardiology available?", "Cardiology" in departments)
+print("Is Dermatology available?", "Dermatology" in departments)

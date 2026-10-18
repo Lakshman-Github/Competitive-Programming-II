@@ -1,0 +1,7 @@
+location = (13.0827, 80.2707)
+
+latitude = location[0]
+longitude = location[1]
+
+print("Latitude:",latitude)
+print("Longitude:",longitude)

@@ -1,0 +1,6 @@
+orders = ["Laptop", "Mouse", "Keyboard", "Mouse", "Laptop", "Monitor"]
+unique_products = set(orders)
+
+print("All Products:",orders)
+print("Unique_Products:",unique_products)
+print("Number of Unique Products:",len(unique_products))

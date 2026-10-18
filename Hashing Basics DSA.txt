@@ -1,0 +1,14 @@
+numbers = [10,25,30,45,50]
+
+hash_table={}
+
+for num in numbers:
+    hash_table[num] = True
+    
+
+target = int(input("Enter a number to search: "))
+
+if target in hash_table:
+    print("Element found")
+else:
+    print("Element not found")

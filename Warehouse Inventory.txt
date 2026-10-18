@@ -1,0 +1,10 @@
+inventory = ["Laptop","Monitor","Keyboard","Mouse"]
+
+print("Inventory:",inventory)
+
+print("Is Laptop available?","Laptop" in inventory)
+
+inventory.append("Printer")
+
+print("Updated Inventory: ",inventory)
+print("Number of products: ",len(inventory))

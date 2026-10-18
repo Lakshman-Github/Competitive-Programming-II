@@ -1,0 +1,6 @@
+Password = input("Enter password: ")
+
+if Password == "Hello":
+    print("Lock opened")
+else:
+    print("Incorrect password")

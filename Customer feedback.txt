@@ -1,0 +1,5 @@
+feedback = "The product is good and the service is good"
+
+count = feedback.count('product')
+
+print("Number of times 'product' appears:",count)

@@ -1,0 +1,15 @@
+product = {
+    "name" : "Laptop",
+    "price" : 55000,
+    "quantity" : 10,
+    "availability" : True
+}
+
+print("Original Price:", product["price"])
+
+product["price"] = 52000
+
+print("Updated Price:",product["price"])
+print("Product:",product["name"])
+print("Quantity:",product["quantity"])
+print("Available:",product["availability"])

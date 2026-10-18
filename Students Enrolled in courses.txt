@@ -1,0 +1,10 @@
+python_students = {"Rahul", "Arun", "Priya", "Kiran"}
+java_students = {"Arun", "Kiran", "Vijay", "Suresh"}
+
+both_courses = python_students.intersection(java_students)
+either_courses = python_students.union(java_students)
+only_python = python_students.difference(java_students)
+
+print("Students in both courses:",both_courses)
+print("Students in either courses:",either_courses)
+print("Only python students:",only_python)

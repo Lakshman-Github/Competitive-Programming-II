@@ -1,0 +1,10 @@
+text = input("Enter a text: ")
+
+original = text
+
+reverse = text[::-1]
+
+if(text.lower() == reverse.lower()):
+    print("Palindrome")
+else: 
+    print("Not a Palindrome")

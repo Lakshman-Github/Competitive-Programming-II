@@ -1,0 +1,6 @@
+employee = (101, "Rahul", "IT", 3)
+
+print("Employee ID:",employee[0])
+print("Name:",employee[1])
+print("Department:",employee[2])
+print("Experience:",employee[3])

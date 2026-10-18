@@ -1,0 +1,11 @@
+cart = ["Laptop", "Mouse", "Keyboard"]
+
+print("Original Cart:", cart)
+
+cart.append("Headphones")
+print("After Adding:", cart)
+
+cart.remove("Mouse")
+print("After Removing:", cart)
+
+print("Final Cart:", cart)

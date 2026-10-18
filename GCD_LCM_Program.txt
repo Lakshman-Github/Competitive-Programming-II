@@ -1,0 +1,35 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+gcd = 1
+
+for i in range(1, min(num1,num2)+1):
+    if num1 % i == 0 and num2 % i == 0:
+        gcd = i
+        
+#LCM
+
+lcm = (num1 * num2) // gcd
+
+print("GCD:",gcd)
+print("LCM:",lcm)
+
+
+"""
+GCD → The largest number that divides both numbers.
+
+Factors of 12: 1, 2, 3, 4, 6, 12
+Factors of 18: 1, 2, 3, 6, 9, 18
+
+GCD = 6
+
+LCM → The smallest number that is divisible by both numbers.
+
+Multiples of 12: 12, 24, 36, 48...
+Multiples of 18: 18, 36, 54...
+
+LCM = 36
+
+"""
+
+

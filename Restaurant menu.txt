@@ -1,0 +1,12 @@
+menu = ["Pizza","Burger","Pasta","Biriyani"]
+
+print("First Dish:",menu[0])
+print("Second Dish:",menu[-1])
+
+menu.append("Fried Rice")
+
+print("After Adding:",menu)
+
+menu.remove("Pasta")
+
+print("Updated Menu:",menu)

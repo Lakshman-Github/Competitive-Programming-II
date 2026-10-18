@@ -1,0 +1,19 @@
+student_name = "Arun"
+age = 21
+roll_number = 105
+percentage = 82.5
+status = True 
+
+print("Name:",student_name)
+print("Age:",age)
+print("Roll Number:",roll_number)
+print("Percentage:",percentage)
+print("Passed:",status)
+
+print()
+
+print(type(student_name))
+print(type(age))
+print(type(roll_number))
+print(type(percentage))
+print(type(status))

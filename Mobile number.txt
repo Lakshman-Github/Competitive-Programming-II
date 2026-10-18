@@ -1,0 +1,5 @@
+mobile = "9876543210"
+
+masked_mobile = "*" * 6 + mobile[-4:]
+
+print("Mobile Number:",masked_mobile)

@@ -1,0 +1,13 @@
+num = int(input("Enter a number: "))
+
+original = num 
+store = 0
+while num>0:
+    digits = num % 10
+    store += digits*digits*digits
+    num = num // 10
+    
+if store == original:
+    print("It is an Armstrong number")
+else:
+    print("It is not an Armstrong number")

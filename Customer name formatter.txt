@@ -1,0 +1,7 @@
+name = "  jaya lakshman  "
+
+cleaned_name = name.strip()
+title_name = cleaned_name.title()
+
+print(cleaned_name)
+print(title_name)

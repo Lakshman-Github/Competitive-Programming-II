@@ -1,0 +1,12 @@
+contacts = {
+    "Rahul" : "9876543210",
+    "Priya" : "9876501234",
+    "Arun" : "9123456780"
+}
+
+contacts["Kiran"] = "9876543210"
+
+del contacts["Arun"]
+
+print("Final Contact Book:")
+print(contacts)

@@ -1,0 +1,5 @@
+rgb = (255, 128, 0)
+
+print("Red:", rgb[0])
+print("Green:",rgb[1])
+print("Blue:",rgb[2])

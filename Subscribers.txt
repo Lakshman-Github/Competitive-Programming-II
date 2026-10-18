@@ -1,0 +1,6 @@
+installed_users = {"Rahul", "Priya", "Arun", "Kiran", "Vijay"}
+subscribed_users = {"Priya", "Arun", "Vijay"}
+
+not_subscribed = installed_users.difference(subscribed_users)
+
+print("Users who have not subscribed:",not_subscribed)

@@ -1,0 +1,15 @@
+mobile_model = "Samsung_Galaxy"
+price = 30000
+gst_percentage = 18
+number_of_phones = 2
+
+total_price = price * number_of_phones
+gst = total_price * 18/100
+final_amount = total_price + gst
+
+print("Model:",mobile_model)
+print("Price:",price)
+print("GST:",gst_percentage,"%")
+print("Quantity:",number_of_phones)
+print()
+print("Total Amount:",int(final_amount))

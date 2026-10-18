@@ -1,0 +1,7 @@
+total = 0
+
+for i in range(5):
+    product = int(input("Enter a product price: "))
+    total = total + product
+    
+print("Total bill:",total)

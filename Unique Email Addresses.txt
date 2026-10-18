@@ -1,0 +1,10 @@
+emails = {
+    "rahul@gmail.com",
+    "arun@gmail.com",
+    "rahul@gmail.com",
+    "priya@gmail.com",
+    "arun@gmail.com"
+}
+
+print("Unique Email Address:")
+print(emails)

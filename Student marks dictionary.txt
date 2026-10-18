@@ -1,0 +1,19 @@
+mark1 = {
+    "English" : 85,
+    "Maths" : 90,
+    "Physics" : 78,
+    "Chemistry" : 82,
+    "Computer" : 95
+}
+
+mark2 = [89,84,86,90,92]
+
+total1 = sum(mark1.values())
+total2 = sum(mark2)
+average = total1/len(mark1)
+
+print("Marks:",mark1)
+
+print("Total Marks:",total1)
+print("Total Marks:",total2)
+print("Average:",average)

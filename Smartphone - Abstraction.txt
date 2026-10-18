@@ -1,0 +1,24 @@
+from abc import ABC, abstractmethod
+
+class Smartphone(ABC):
+    
+    @abstractmethod
+    def make_call(self):
+        pass
+    
+    
+class AndroidPhone(Smartphone):
+    
+    def make_call(self):
+        print("Android phone is making a call")
+        
+class IPhone(Smartphone):
+    
+    def make_call(self):
+        print("IPhone is making a call")
+        
+android = AndroidPhone()
+iphone = IPhone()
+
+android.make_call()
+iphone.make_call()

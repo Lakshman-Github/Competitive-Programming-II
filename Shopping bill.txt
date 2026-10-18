@@ -1,0 +1,15 @@
+product = "Laptop"
+price = 55000
+quantity = 2
+discount = 10
+
+total_price = price * quantity 
+discount_amount = total_price * 10/100
+final_amount = total_price - discount_amount
+
+print("Product:",product)
+print("Price:",price)
+print("Quantity:",quantity)
+print("Discount:",discount)
+print()
+print("Final Amount:",int(final_amount))

@@ -1,0 +1,6 @@
+bus_stops = ("Chennai", "Tambaram", "Chengalpattu", "Villupuram")
+print("First stop:", bus_stops[0])
+print("Last stop:",bus_stops[-1])
+
+print("Is Tambaram on route?", "Tambaram" in bus_stops)
+print("Bus starts at:", bus_stops[0], "Destination is at:", bus_stops[-1])

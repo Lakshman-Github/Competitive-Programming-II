@@ -1,0 +1,8 @@
+email = "jaya@gmail.com"
+
+has_at = "@" in email 
+has_dot = "." in email 
+
+print("Email:",email)
+print("Contains @:",has_at)
+print("Contains .:",has_dot)

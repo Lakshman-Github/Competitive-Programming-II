@@ -1,0 +1,10 @@
+class odd_even:
+    def odd_even(self,num):
+        if(num%2 == 0):
+            print("Even")
+        else:
+            print("Odd")
+            
+
+result = odd_even()
+result.odd_even(2)

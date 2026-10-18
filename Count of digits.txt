@@ -1,0 +1,9 @@
+n = int(input("Enter the number of elements: "))
+arr = []
+count = 0
+for i in range(n):
+    num = int(input("Enter number: "))
+    arr.append(num)
+    count+=1
+
+print(count)

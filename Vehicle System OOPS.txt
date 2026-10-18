@@ -1,0 +1,30 @@
+class Vehicle:
+
+    def __init__(self, brand):
+	#default constructor python automatically calls
+        self.brand = brand
+
+    def start(self):
+        print(self.brand, "is starting")
+
+
+class Car(Vehicle):
+
+    def drive(self):
+        print(self.brand, "car is being driven")
+
+
+class Bike(Vehicle):
+
+    def ride(self):
+        print(self.brand, "bike is being ridden")
+
+
+car = Car("Toyota")
+bike = Bike("Yamaha")
+
+car.start()
+car.drive()
+
+bike.start()
+bike.ride()

@@ -1,0 +1,11 @@
+arr = [50, 20, 40, 10, 30]
+
+for i in range(len(arr)):
+    for j in range(len(arr) - 1):
+
+        if arr[j] > arr[j + 1]:
+            temp = arr[j]
+            arr[j] = arr[j + 1] //arr[j] <-- 20
+            arr[j + 1] = temp //arr[j+1] <-- 50
+
+print("Sorted array:", arr)

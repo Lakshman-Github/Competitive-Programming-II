@@ -1,0 +1,10 @@
+basic_salary = 40000
+HRA = 8000
+bonus = 5000
+deduction = 3000
+
+gross_salary = basic_salary + HRA + bonus 
+net_salary = gross_salary - deduction 
+
+print("Gross Salary:",gross_salary)
+print("Net Salary:",net_salary)

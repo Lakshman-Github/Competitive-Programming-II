@@ -1,0 +1,13 @@
+employee_name = "Rahul"
+basic_salary = 40000
+hra = 8000
+bonus = 5000
+
+total_salary = basic_salary + hra + bonus 
+
+print("Name",employee_name)
+print("Basic Salary:",basic_salary)
+print("HRA:",hra)
+print("Bonus:",bonus)
+print()
+print("Total Salary:",total_salary)
